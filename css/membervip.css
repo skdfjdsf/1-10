@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../picture/tiger2.png);
+    background-size: cover;
+}
+.main-content
+{
+    text-align: center;
+    box-shadow: 0 0 10px #44424270;
+}
+.top-section
+{
+    background-color: rgb(37, 44, 51);
+    padding: 50px 0 50px 0;
+    color: rgb(221, 224, 224);
+}
+.top-section img
+{
+    width: 50%;
+    border-radius: 50%;
+}
+.top-section p
+{
+    margin: 5px 0 5px 0;
+}
+.top-section .name
+{
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 20px;
+}
+.top-section .email .mobil .integral
+{
+    font-size: 18px;
+}
+.middle-section a
+{
+    text-decoration: none;
+}
+.middle-section .bottom-section
+{
+    background-color: azure;
+}
+.bottom-section
+{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-section .btn
+{
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;/*沒有邊框*/
+    background-color: tan;
+    width: 190px;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Noto sans Tc',sans-serif;
+    
+}
